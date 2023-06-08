@@ -8,8 +8,6 @@ public class Name {
     private static final List<String> NAMES = new ArrayList<>();
     private static final Random RANDOM = new Random();
 
-    private final static List<String> TITLES_FASTEST = new ArrayList<>();
-
     static {
         NAMES.add("Jeff");
         NAMES.add("Cookie Monster");
@@ -54,25 +52,11 @@ public class Name {
         NAMES.add("Matilda");
         NAMES.add("Square");
         NAMES.add("-.-. . .-.. .-..");
-        NAMES.add("Zachary Grinberg");
         NAMES.add("(A)sex Haver");
         NAMES.add("Barometer");
         NAMES.add("Ronald McDonald");
-        NAMES.add("Peter Piper");
-        NAMES.add("Picked a patch");
-        NAMES.add("Of pickled peppers");
-        NAMES.add("Preliminarily");
-        NAMES.add("Poopoo");
-        NAMES.add("Penguins");
-        NAMES.add("Probably pee pineapples");
-        NAMES.add("Perhaps piper pots");
-        NAMES.add("These pee pineapples");
         NAMES.add("Adopted (Affectionate)");
         NAMES.add("George Washington");
-
-        TITLES_FASTEST.add("Ignorer of Red Lights");
-        TITLES_FASTEST.add("Consumer of Caffeine");
-        TITLES_FASTEST.add("Walker of Fastness");
     }
 
     public static String takeName() {
